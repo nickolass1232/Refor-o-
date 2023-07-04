@@ -8,3 +8,18 @@ body{
     background-color: var(--cor-fundo);
     color:var(--branco-principal)
 }
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.principal {
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img {
+    width: 30%;
+}
+.container {
+    height: 100%;
+}
