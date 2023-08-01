@@ -10,7 +10,7 @@
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
     font-family: var(--fonte-principal);
-    font-size: 16px;
+    font-size: 10px;
     font-weight: 400;
   }
   
@@ -20,7 +20,7 @@
   }
   
   .principal {
-    background-image: url("img/Background.png");
+    background-image: url("Background.png");
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
@@ -35,7 +35,7 @@
   
   .container-botao {
     background-color: var(--botao-azul);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 1em;
     color: var(--branco-principal);
     display: block;
@@ -53,12 +53,12 @@
   }
   
   .container-titulo {
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 25px;
+    font-weight: 800;
   }
   
   .container-imagem {
-    margin: 1em 0 2em 0;
+    margin: 1em 5 2em 5;
   }
   
   .container-caixa {
@@ -66,7 +66,13 @@
   }
   
   .secundario-imagem {
+    margin: 1em 5 2em 5;
     width: 80%;
+
+  }
+  .sala-imagem {
+    width: 70%;
+    margin: 10em;
   }
   
   .secundario {
@@ -75,14 +81,15 @@
   }
   
   .descricao-titulo {
-    font-weight: 700;
+    font-weight: 800;
     font-size: 48px;
     color: var(--branco-principal);
-    margin-bottom: 0.1em;
+    margin-bottom: 0.10em;
   }
   
   .descricao-texto {
     color: var(--cinza-secundario);
+    font-size: 200%;
   }
   
   .secundario-botao {
@@ -91,5 +98,6 @@
   }
   
   .container-descricao {
-    padding: 2em;
+    padding: 5em;
   }
+
